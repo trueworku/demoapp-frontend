@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style form inputs */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style submit button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style form container and elements on smaller screens */
+@media screen and (max-width: 600px) {
+  .form-container {
+    max-width: 300px;
+  }
+}
